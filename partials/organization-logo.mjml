@@ -1,0 +1,36 @@
+<mj-section css-class="header" padding-bottom="0px" padding-top="0px">
+  <mj-group>
+    <mj-column>
+      <mj-image
+        width="80px"
+        height="80px"
+        src="https://assets.cdn.io.italia.it/logos/organizations/82003830161.png"
+        alt=" Logo ${senderOrganizationName}"
+        align="left"
+        border-radius="8px"
+      />
+    </mj-column>
+    <mj-column>
+      <mj-image
+        css-class="light-img"
+        width="36px"
+        align="right"
+        src="../assets/logo_app_io.png"
+      />
+      <mj-raw>
+        <div
+          class="dark-img"
+          style="mso-hide: all; display: none; padding: 10px 25px"
+          align="right"
+        >
+          <img
+            src="../assets/logo_app_io_white.png"
+            width="36px"
+            class="dark-img"
+            style="display: none"
+          />
+        </div>
+      </mj-raw>
+    </mj-column>
+  </mj-group>
+</mj-section>

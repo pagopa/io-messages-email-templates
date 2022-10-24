@@ -1,0 +1,36 @@
+<mj-section css-class="section" padding-top="0px">
+  <mj-column>
+    <mj-text
+      css-class="footer-text"
+      font-size="14px"
+      line-height="20px"
+      font-weight="regular"
+    >
+      <p>
+        <strong>
+          Non rispondere a questa email. Questa casella di posta è utilizzata
+          solo per l'invio della presente mail e, non essendo monitorata, non
+          riceveresti risposta.
+        </strong>
+      </p>
+      <p>
+        Hai ricevuto questa comunicazione perché le tue preferenze nell’<a
+          href="#"
+          >App IO</a
+        >
+        indicano che hai abilitato l’inoltro via email dei messaggi relativi al
+        servizio in oggetto.
+      </p>
+      <p>
+        Se non vuoi più ricevere le comunicazioni relative a questo servizio,
+        puoi modificare le tue preferenze nella relativa scheda servizio
+        all’interno dell’App IO.
+      </p>
+      <p>
+        Puoi anche disattivare l’inoltro dei messaggi via email per tutti i
+        servizi, selezionando l'opzione “Disabilita per tutti i servizi” che
+        trovi in "Profilo" > "Preferenze" > "Inoltro dei messaggi via email".
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>
