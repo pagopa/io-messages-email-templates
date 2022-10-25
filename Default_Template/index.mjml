@@ -23,15 +23,17 @@
       <mj-section css-class="section" padding-bottom="0px" padding-top="0px">
         <mj-column>
           <!-- Service Organization Name + Service Name -->
+          <!-- H6 Mobile (from MUI Italia)-->
           <mj-text
             css-class="text"
-            font-weight="400"
-            font-size="20px"
-            line-height="28px"
+            font-weight="600"
+            font-size="22px"
+            line-height="26px"
             padding-top="16px"
             >PCM - Dipartimento per le Politiche Giovanili e il Servizio Civile
             Universale
           </mj-text>
+          <!-- Body 1 Desktop (from MUI Italia)-->
           <mj-text
             css-class="text"
             padding-top="0"
@@ -51,6 +53,7 @@
             padding-top="16px"
             padding-bottom="0px"
           >
+            <!-- H4 Desktop (from MUI Italia)-->
             <h1 style="font-size: 32px; line-height: 40px; margin: 0">
               La tua Carta Giovani è attiva!
             </h1>
@@ -62,6 +65,7 @@
             font-weight="regular"
             align="left"
           >
+            <!-- Body 1 Desktop (from MUI Italia)-->
             <p>
               Buone notizie!
               <strong>La tua Carta Giovani Nazionale è attiva</strong> e la
