@@ -1,16 +1,16 @@
 <mj-section css-class="header" padding-bottom="0px" padding-top="0px">
   <mj-group>
-    <mj-column>
+    <mj-column vertical-align="middle">
       <mj-image
-        width="80px"
-        height="80px"
+        width="64px"
+        height="64px"
         src="https://assets.cdn.io.italia.it/logos/organizations/82003830161.png"
         alt=" Logo ${senderOrganizationName}"
         align="left"
         border-radius="8px"
       />
     </mj-column>
-    <mj-column>
+    <mj-column vertical-align="middle">
       <mj-image
         css-class="light-img"
         width="36px"
