@@ -27,18 +27,10 @@ body,
   color: #17324D !important;
 }
 
-.footer-text,
-.footer-text div {
+.text-secondary,
+.text-secondary div {
   /* Text Secondary */
   color: #5C6F82 !important;
-}
-
-.mobile {
-  display: block;
-}
-
-.desktop {
-  display: none;
 }
 
 p {
@@ -46,7 +38,7 @@ p {
   margin-bottom: 12px;
 }
 
-.footer-text a,
+.text-secondary a,
 .text a {
   color: #0073E6 !important;
 }
@@ -98,16 +90,16 @@ p {
   }
 
   .text div {
-    color: #eeeeee !important;
+    color: #ffffff !important;
   }
 
-  .footer-text,
-  .footer-text div {
+  .text-secondary,
+  .text-secondary div {
     /* Gray-200 */
     color: #E0E0E0 !important;
   }
 
-  .footer-text a,
+  .text-secondary a,
   .text a {
     color: #3da2ff !important;
   }

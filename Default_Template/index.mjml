@@ -27,19 +27,22 @@
           <mj-text
             css-class="text"
             font-weight="600"
-            font-size="22px"
-            line-height="26px"
+            font-size="18px"
+            line-height="24px"
             padding-top="16px"
+            padding-bottom="0px"
+            color="#17324D"
             >PCM - Dipartimento per le Politiche Giovanili e il Servizio Civile
             Universale
           </mj-text>
           <!-- Body 1 Desktop (from MUI Italia)-->
           <mj-text
-            css-class="text"
-            padding-top="0"
+            css-class="text-secondary"
+            padding-top="0px"
             font-weight="400"
             font-size="16px"
             line-height="24px"
+            color="#5C6F82"
           >
             Divisione servizi<br />
             Carta Giovani Nazionale
@@ -52,6 +55,7 @@
             align="left"
             padding-top="16px"
             padding-bottom="0px"
+            color="#17324D"
           >
             <!-- H4 Desktop (from MUI Italia)-->
             <h1 style="font-size: 32px; line-height: 40px; margin: 0">
@@ -64,6 +68,7 @@
             line-height="24px"
             font-weight="regular"
             align="left"
+            color="#17324D"
           >
             <!-- Body 1 Desktop (from MUI Italia)-->
             <p>
