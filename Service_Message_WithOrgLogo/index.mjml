@@ -17,8 +17,7 @@
   <mj-body css-class="mail-body">
     <mj-include path="../style.css" type="css" />
     <mj-wrapper>
-      <!-- App IO Logo -->
-      <!-- <mj-include path="../partials/main-logo.mjml" /> -->
+      <!-- Entity Logo + App IO Logo -->
       <mj-include path="../partials/organization-logo.mjml" />
       <mj-section css-class="section" padding-bottom="0px" padding-top="0px">
         <mj-column>
