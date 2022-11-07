@@ -20,7 +20,7 @@ $ npm install --g mjml
 
 ## How to deploy changes
 
-Once you built the template, update the default template in the [io-functions-commons](https://github.com/pagopa/io-functions-commons/tree/master/templates)'s repository through a pull request.
+Once you built the template, update the default template in the [io-functions-commons](https://github.com/pagopa/io-functions-commons)'s repository ([MJML source code](https://github.com/pagopa/io-functions-commons/tree/master/templates) and [generated HTML with parameters](https://github.com/pagopa/io-functions-commons/blob/master/src/templates/html/default.ts)) through a pull request.
 
 ## Compatibility
 
