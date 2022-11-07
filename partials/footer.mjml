@@ -9,28 +9,20 @@
     >
       <p>
         <strong>
-          Non rispondere a questa email. Questa casella di posta è utilizzata
-          solo per l'invio della presente mail e, non essendo monitorata, non
-          riceveresti risposta.
+          Non rispondere a questo indirizzo email: è utilizzato solo per l'invio
+          di questa comunicazione e, non essendo monitorato, non riceveresti
+          risposta.
         </strong>
       </p>
       <p>
-        Hai ricevuto questa comunicazione perché le tue preferenze nell’<a
-          href="#"
-          >App IO</a
-        >
-        indicano che hai abilitato l’inoltro via email dei messaggi relativi al
-        servizio in oggetto.
+        Ricevi questa comunicazione perché hai abilitato l’inoltro dei messaggi
+        via email per tutti i servizi di IO.
       </p>
       <p>
-        Se non vuoi più ricevere le comunicazioni relative a questo servizio,
-        puoi modificare le tue preferenze nella relativa scheda servizio
-        all’interno dell’App IO.
-      </p>
-      <p>
-        Puoi anche disattivare l’inoltro dei messaggi via email per tutti i
-        servizi, selezionando l'opzione “Disabilita per tutti i servizi” che
-        trovi in "Profilo" > "Preferenze" > "Inoltro dei messaggi via email".
+        Se non vuoi più che i messaggi che ricevi su IO vengano inoltrati al tuo
+        indirizzo email, vai alla sezione Profilo > Preferenze > Inoltro dei
+        messaggi via email e seleziona l'opzione “Disabilita per tutti i
+        servizi”.
       </p>
     </mj-text>
   </mj-column>
