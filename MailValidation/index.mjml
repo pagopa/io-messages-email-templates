@@ -32,7 +32,7 @@
           >
             <!-- H4 Desktop (from MUI Italia)-->
             <h1 style="font-size: 32px; line-height: 40px; margin: 0">
-              Conferma il tuo indirizzo
+              Conferma il tuo indirizzo email
             </h1>
           </mj-text>
           <mj-text
@@ -59,14 +59,8 @@
           >
             <!-- Body 1 Desktop (from MUI Italia)-->
             <p>
-              ti inviamo questa comunicazione perché hai fatto l’accesso all’app
-              IO per la prima volta oppure hai appena cambiato l’indirizzo email
-              dalla sezione Profilo dell’app IO. Se non hai fatto le azioni
-              appena elencate, ignora pure questo messaggio.
-            </p>
-            <p>
-              Per abilitare alcune funzioni dell’app IO e concludere la
-              verifica:
+              per abilitare alcune funzioni di app IO è necessario confermare il
+              tuo indirizzo email premendo sul tasto qui sotto.
             </p>
           </mj-text>
           <mj-button
@@ -81,7 +75,7 @@
             href="#"
             css-class="cta"
           >
-            Conferma il tuo indirizzo email
+            Conferma l'indirizzo email
           </mj-button>
           <mj-text
             css-class="text"
@@ -94,14 +88,23 @@
             padding-bottom="0px"
           >
             <p>
-              Se hai problemi, copia e incolla il seguente indirizzo in una
-              nuova scheda del browser:
+              In alternativa, copia e incolla il seguente indirizzo in una nuova
+              scheda del browser:
               <a
                 href="https://verificaindirizzomail.io.italia.it/verifica?token=12345678910"
                 style="color: #0073e6"
                 class="link"
                 >https://verificaindirizzomail.io.italia.it/verifica?token=12345678910</a
               >
+            </p>
+            <p>
+              Hai ricevuto questa email perché hai fatto l’accesso all’app IO
+              per la prima volta, o hai appena modificato l’indirizzo email
+              dalla sezione Profilo dell’app IO.
+            </p>
+            <p>
+              Se non hai effettuato tu queste azioni, ignora pure questo
+              messaggio.
             </p>
           </mj-text>
 
