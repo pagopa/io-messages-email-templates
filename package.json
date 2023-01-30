@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "generate": "npm-run-all generate:*",
-    "generate:mailvalidation": "mjml MailValidation/index.mjml -o MailValidation/index.html"
+    "generate:mailvalidation": "mjml MailValidation/index.mjml -o MailValidation/index.html",
+    "test": "git status | grep .*/index.html && echo 'Template changes founds. Please commit the changed index.html'"
   },
   "dependencies": {},
   "devDependencies": {
