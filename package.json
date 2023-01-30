@@ -1,0 +1,17 @@
+{
+  "name": "@pagopa/io-app-email-templates",
+  "version": "26.4.0",
+  "description": "Common code for Azure functions",
+  "repository": "https://github.com/pagopa/io-app-email-templates",
+  "author": "https://www.pagopa.gov.it",
+  "license": "MIT",
+  "scripts": {
+    "generate": "npm-run-all generate:*",
+    "generate:mailvalidation": "mjml MailValidation/index.mjml -o MailValidation/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mjml": "^4.13.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
