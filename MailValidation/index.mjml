@@ -32,7 +32,7 @@
           >
             <!-- H4 Desktop (from MUI Italia)-->
             <h1 style="font-size: 32px; line-height: 40px; margin: 0">
-              Conferma il tuo indirizzo email
+              ${title}
             </h1>
           </mj-text>
           <mj-text
