@@ -10,17 +10,20 @@ To edit them, you can choose among these following options:
 - [Local installation](https://mjml.io/download)
 - [Visual Studio Code plugin](https://marketplace.visualstudio.com/items?itemName=mjmlio.vscode-mjml)
 
-To generate the HTML output you need to install the following CLI tool:
-
-1. [MJML](https://github.com/keithamus/hbs-cli) package:
+To generate the HTML output you need to run the generate script
 
 ```shell
-$ npm install --g mjml
+$ yarn generate
 ```
 
 ## How to deploy changes
 
-Once you built the template, update the default template in the [io-functions-commons](https://github.com/pagopa/io-functions-commons)'s repository ([MJML source code](https://github.com/pagopa/io-functions-commons/tree/master/templates) and [generated HTML with parameters](https://github.com/pagopa/io-functions-commons/blob/master/src/templates/html/default.ts)) through a pull request.
+### MailValidation
+1. Release a new tag from main branch containing the new template version.
+2. Clone the project https://github.com/pagopa/io-functions-app
+3. In the package.json, update the generate:templates:mailvalidation url to point to the tag relesed at (1)
+4. Push, PR and merge the changes to io-funcions-app
+5. Release the new version of io-functions-app 
 
 ## Compatibility
 
