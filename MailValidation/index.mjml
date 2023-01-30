@@ -72,7 +72,7 @@
             align="left"
             inner-padding="14px 24px"
             border-radius="4px"
-            href="#"
+            href="${validationUrl}"
             css-class="cta"
           >
             Conferma l'indirizzo email
@@ -91,10 +91,10 @@
               In alternativa, copia e incolla il seguente indirizzo in una nuova
               scheda del browser:
               <a
-                href="https://verificaindirizzomail.io.italia.it/verifica?token=12345678910"
+                href="${validationUrl}"
                 style="color: #0073e6"
                 class="link"
-                >https://verificaindirizzomail.io.italia.it/verifica?token=12345678910</a
+                >${validationUrl}</a
               >
             </p>
             <p>
