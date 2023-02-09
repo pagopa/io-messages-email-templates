@@ -4,8 +4,8 @@
       <mj-image
         width="64px"
         height="64px"
-        src="https://assets.cdn.io.italia.it/logos/organizations/82003830161.png"
-        alt=" Logo ${senderOrganizationName}"
+        src="https://assets.cdn.io.italia.it/logos/organizations/${senderMetadata.organizationFiscalCode}.png"
+        alt=" Logo ${senderMetadata.organizationName}"
         align="left"
         border-radius="8px"
       />
