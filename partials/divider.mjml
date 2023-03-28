@@ -5,7 +5,9 @@
       padding-bottom="16px"
       border-width="1px"
       border-style="solid"
-      border-color="lightgrey"
+      border-color="#E3E7EB"
+      css-class="divider"
+      padding="0px"
     />
   </mj-column>
 </mj-section>

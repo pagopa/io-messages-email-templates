@@ -8,6 +8,7 @@
         alt=" Logo ${senderMetadata.organizationName}"
         align="left"
         border-radius="8px"
+        padding-left="0px"
       />
     </mj-column>
     <mj-column vertical-align="middle">
@@ -16,11 +17,12 @@
         width="36px"
         align="right"
         src="../assets/logo_app_io.png"
+        padding-right="0px"
       />
       <mj-raw>
         <div
           class="dark-img"
-          style="mso-hide: all; display: none; padding: 10px 25px"
+          style="mso-hide: all; display: none; padding: 10px 0px"
           align="right"
         >
           <img
