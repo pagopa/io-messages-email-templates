@@ -18,7 +18,7 @@
     <mj-include path="../style.css" type="css" />
     <mj-wrapper padding-right="20px" padding-left="20px">
       <!-- App IO Logo -->
-      <mj-include path="../partials/main-logo-without-padding.mjml" />
+      <mj-include path="../partials/main-logo.mjml" />
       <mj-section css-class="section" padding="0px" padding-bottom="24px">
         <mj-column>
           <!-- Title & Main Message -->
@@ -54,7 +54,12 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section css-class="message-preview" padding="24px" text-align="left">
+      <mj-section
+        css-class="message-preview"
+        padding="24px"
+        text-align="left"
+        border-radius="8px"
+      >
         <!-- <mj-column width="56px">
           <mj-image
             width="36px"
@@ -148,9 +153,9 @@
         </mj-column>
       </mj-section>
       <!-- Divider -->
-      <mj-include path="../partials/divider-without-padding.mjml" />
+      <mj-include path="../partials/divider.mjml" />
       <!-- Footer -->
-      <mj-include path="../partials/footer-service-without-padding.mjml" />
+      <mj-include path="../partials/footer-service.mjml" />
     </mj-wrapper>
   </mj-body>
 </mjml>

@@ -6,6 +6,7 @@
       border-width="1px"
       border-style="solid"
       border-color="lightgrey"
+      padding="0px"
     />
   </mj-column>
 </mj-section>
