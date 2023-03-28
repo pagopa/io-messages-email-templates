@@ -5,11 +5,12 @@
       width="36px"
       align="left"
       src="../assets/logo_app_io.png"
+      padding-left="0"
     />
     <mj-raw>
       <div
         class="dark-img"
-        style="mso-hide: all; display: none; padding: 10px 25px"
+        style="mso-hide: all; display: none; padding: 10px 0px"
       >
         <img
           src="../assets/logo_app_io_white.png"

@@ -1,4 +1,4 @@
-<mj-section css-class="section" padding-top="0px">
+<mj-section css-class="section" padding="0px">
   <mj-column>
     <mj-text
       css-class="text-secondary"
@@ -6,6 +6,7 @@
       line-height="20px"
       font-weight="regular"
       color="#5C6F82"
+      padding="0px"
     >
       <p>
         Non rispondere a questo indirizzo email: è utilizzato solo per l'invio

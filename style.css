@@ -47,7 +47,15 @@ p {
   color: #0073E6 !important;
 }
 
+.divider p {
+  border-color: #E3E7EB !important;
+}
 
+/* Message Preview Block */
+
+.message-preview {
+  background-color: #FAFAFA;
+}
 
 @media (prefers-color-scheme: light) {
 
@@ -89,6 +97,14 @@ p {
 
   .section {
     background-color: #323232;
+  }
+
+  .message-preview {
+    background-color: #424242;
+  }
+
+  .divider p {
+    border-color: #757575 !important;
   }
 
   .title div {

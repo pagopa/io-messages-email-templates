@@ -16,7 +16,7 @@
   </mj-head>
   <mj-body css-class="mail-body">
     <mj-include path="../style.css" type="css" />
-    <mj-wrapper>
+    <mj-wrapper padding-left="20px" padding-right="20px">
       <!-- Entity Logo + App IO Logo -->
       <mj-include path="../partials/organization-logo.mjml" />
       <mj-section css-class="section" padding-bottom="0px" padding-top="0px">
@@ -30,6 +30,8 @@
             line-height="24px"
             padding-top="16px"
             padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
             color="#17324D"
             >PCM - Dipartimento per le Politiche Giovanili e il Servizio Civile
             Universale
@@ -38,6 +40,8 @@
           <mj-text
             css-class="text-secondary"
             padding-top="0px"
+            padding-left="0px"
+            padding-right="0px"
             font-weight="400"
             font-size="16px"
             line-height="24px"
@@ -54,6 +58,8 @@
             align="left"
             padding-top="24px"
             padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
             color="#17324D"
           >
             <!-- H4 Desktop (from MUI Italia)-->
@@ -69,6 +75,8 @@
             align="left"
             color="#17324D"
             padding-top="4px"
+            padding-left="0px"
+            padding-right="0px"
           >
             <!-- Body 1 Desktop (from MUI Italia)-->
             <p>
