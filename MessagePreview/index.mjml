@@ -1,6 +1,6 @@
 <mjml lang="it">
   <mj-head>
-    <mj-title>Hai un nuovo messaggio da leggere</mj-title>
+    <mj-title>${subject}</mj-title>
     <mj-font
       name="Titillium Web"
       href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css"
@@ -34,7 +34,7 @@
           >
             <!-- H4 Desktop (from MUI Italia)-->
             <h1 style="font-size: 32px; line-height: 36px; margin: 0">
-              Hai un nuovo messaggio da leggere
+              ${subject}
             </h1>
           </mj-text>
           <mj-text
@@ -81,8 +81,8 @@
             color="#17324D"
             padding="0"
           >
-            Comune di Sotto il Monte Giovanni XXIII Giovanni XXIII Giovanni
-            XXIII Giovanni XXIII Giovanni XXIII
+            ${senderMetadata.departmentName}<br />
+            ${senderMetadata.serviceName}
           </mj-text>
           <mj-text
             css-class="text"
@@ -124,10 +124,7 @@
             color="#17324D"
             padding="0px"
           >
-            Buongiorno,<br />
-            su App IO è disponibile l’identificativo unico del versamento per
-            procedere al pagamento in un’unica soluzione del saldo TARI 2023.
-            Anche accedendo al Fas...
+            ${body}
           </mj-text>
         </mj-column>
       </mj-section>
