@@ -65,7 +65,7 @@
             width="36px"
             height="36px"
             src="https://assets.cdn.io.italia.it/logos/organizations/82003830161.png"
-            alt=" Logo ${senderOrganizationName}"
+            alt=" Logo ${senderMetadata.organizationName}"
             align="left"
             border-radius="8px"
             padding="0px"
