@@ -1,6 +1,6 @@
 <mjml lang="it">
   <mj-head>
-    <mj-title>${subject}</mj-title>
+    <mj-title>${title}</mj-title>
     <mj-font
       name="Titillium Web"
       href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css"
@@ -93,7 +93,7 @@
             color="#17324D"
             padding="0"
           >
-            Avviso di pagamento TARI
+            ${senderMetadata.organizationName}
           </mj-text>
           <mj-divider
             border-width="1px"
@@ -113,7 +113,7 @@
             color="#17324D"
             padding="0"
           >
-            Emissione TARI 2023
+            ${senderMetadata.serviceName}
           </mj-text>
           <mj-text
             css-class="text"
@@ -140,7 +140,7 @@
             align="left"
             inner-padding="14px 24px"
             border-radius="4px"
-            href="#"
+            href="https://continua.io.pagopa.it/"
             css-class="cta"
             padding-left="0px"
             padding-right="0px"
