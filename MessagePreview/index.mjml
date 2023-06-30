@@ -93,7 +93,7 @@
             color="#17324D"
             padding="0"
           >
-            ${subject}
+            ${senderMetadata.organizationName}
           </mj-text>
           <mj-divider
             border-width="1px"
@@ -113,7 +113,7 @@
             color="#17324D"
             padding="0"
           >
-            ${subject}
+            ${senderMetadata.serviceName}
           </mj-text>
           <mj-text
             css-class="text"
