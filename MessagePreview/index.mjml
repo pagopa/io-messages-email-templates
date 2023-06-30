@@ -1,6 +1,6 @@
 <mjml lang="it">
   <mj-head>
-    <mj-title>${title}</mj-title>
+    <mj-title>{{title}}</mj-title>
     <mj-font
       name="Titillium Web"
       href="https://selfcare.pagopa.it/assets/font/selfhostedfonts.css"
