@@ -9,7 +9,8 @@
     "generate": "npm-run-all generate:*",
     "generate:mailvalidation": "mjml MailValidation/index.mjml -o MailValidation/index.html",
     "generate:servicemessage": "mjml Service_Message_WithOrgLogo/index.mjml -o Service_Message_WithOrgLogo/index.html",
-    "generate:messagepreview": "mjml MessagePreview/index.mjml -o MessagePreview/index.html"
+    "generate:messagepreview": "mjml MessagePreview/index.mjml -o MessagePreview/index.html",
+    "generate:login_notification": "mjml LoginNotification/index.mjml -o LoginNotification/index.html"
   },
   "dependencies": {},
   "devDependencies": {
