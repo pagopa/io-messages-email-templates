@@ -90,7 +90,7 @@
             color="#17324D"
             padding="0"
           >
-            ${idp}
+            ${identity_provider}
           </mj-text>
           <mj-divider
             border-width="1px"
@@ -103,8 +103,8 @@
           />
           <mj-text
             css-class="text"
-            font-size="16px"
-            line-height="24px"
+            font-size="14px"
+            line-height="20px"
             font-weight="bold"
             align="left"
             color="#17324D"
@@ -114,14 +114,45 @@
           </mj-text>
           <mj-text
             css-class="text"
-            font-size="16px"
-            line-height="24px"
+            font-size="14px"
+            line-height="20px"
             font-weight="regular"
             align="left"
             color="#17324D"
-            padding="0px"
+            padding="0"
           >
-            ${dateTime}
+            ${date_time}
+          </mj-text>
+          <mj-divider
+            border-width="1px"
+            padding-top="16px"
+            padding-left="0px"
+            padding-right="0px"
+            padding-bottom="16px"
+            css-class="divider"
+            border-color="#E3E7EB"
+          />
+          <mj-text
+            css-class="text"
+            font-size="14px"
+            line-height="20px"
+            font-weight="bold"
+            align="left"
+            color="#17324D"
+            padding="0"
+          >
+            Indirizzo IP
+          </mj-text>
+          <mj-text
+            css-class="text"
+            font-size="14px"
+            line-height="20px"
+            font-weight="regular"
+            align="left"
+            color="#17324D"
+            padding="0"
+          >
+            ${ip_address}
           </mj-text>
         </mj-column>
       </mj-section>
@@ -140,6 +171,7 @@
             padding-right="0px"
           >
             <p style="margin-top: 0px">
+              <br />
               A presto,<br aria-hidden="true" />il team di PagoPA S.p.A.
             </p>
           </mj-text>
