@@ -34,7 +34,7 @@
           >
             <!-- H4 Desktop (from MUI Italia)-->
             <h1 style="font-size: 32px; line-height: 36px; margin: 0">
-              ${subject}
+              Hai un nuovo messaggio da leggere
             </h1>
           </mj-text>
           <mj-text
@@ -81,8 +81,7 @@
             color="#17324D"
             padding="0"
           >
-            ${senderMetadata.departmentName}<br />
-            ${senderMetadata.serviceName}
+            ${senderMetadata.organizationName}<br />
           </mj-text>
           <mj-text
             css-class="text"
@@ -93,7 +92,7 @@
             color="#17324D"
             padding="0"
           >
-            ${senderMetadata.organizationName}
+            ${senderMetadata.serviceName}
           </mj-text>
           <mj-divider
             border-width="1px"
@@ -113,7 +112,7 @@
             color="#17324D"
             padding="0"
           >
-            ${senderMetadata.serviceName}
+            ${subject}
           </mj-text>
           <mj-text
             css-class="text"
